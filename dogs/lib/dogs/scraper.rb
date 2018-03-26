@@ -1,5 +1,4 @@
 class Dogs::Scraper
-  attr_accessor :popularity, :name, :temper
 
   def self.scrape_dogs
 
@@ -13,3 +12,4 @@ class Dogs::Scraper
     end
   end
 end
+
