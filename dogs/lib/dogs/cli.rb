@@ -16,6 +16,7 @@ class Dogs::CLI
     counter = 0
     if counter <= 10
       Dogs::DogsPopularity.all.each do |dog|
+
         puts "#{counter +=1}. #{dog.name}"
         binding.pry
       end
