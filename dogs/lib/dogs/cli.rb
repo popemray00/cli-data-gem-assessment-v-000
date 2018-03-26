@@ -24,6 +24,7 @@ class Dogs::CLI
         puts "#{counter +=1}. #{dog.name}"
       end
     end
+    binding.pry
   end
 
   def menu
