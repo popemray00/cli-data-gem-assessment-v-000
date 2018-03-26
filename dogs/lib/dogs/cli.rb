@@ -19,8 +19,8 @@ class Dogs::CLI
         puts "Which list of dogs would you like to see first 1 or 2"
           input = gets.strip
         if input == "1"
-          counter >= 0 &&  counter <= 9
-          puts "#{counter +=1}. #{dog.name}"
+          
+          puts "#{counter +=1.set(10, 1)}. #{dog.name}"
         #binding.pry
 
         #elsif counter > 10 && counter <= 20
