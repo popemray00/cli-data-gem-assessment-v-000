@@ -25,6 +25,7 @@ class Dogs::CLI
       #  binding.pry
       end
     end
+    end
     #binding.pry
   end
 
