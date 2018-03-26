@@ -19,8 +19,8 @@ class Dogs::CLI
           puts "#{counter +=1}. #{dog.name}"
         #binding.pry
 
-        elsif counter > 10 && counter <= 20
-            puts "#{counter +=1}. #{dog.name}"
+        #elsif counter > 10 && counter <= 20
+        #    puts "#{counter +=1}. #{dog.name}"
           #  binding.pry
         end
       end
