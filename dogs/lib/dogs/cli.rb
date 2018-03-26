@@ -23,6 +23,7 @@ class Dogs::CLI
           Dogs::DogsPopularity.all.each do |dog|
             puts "#{counter +=1}. #{dog.name}"
           #  binding.pry
+        end
       end
     end
     #binding.pry
