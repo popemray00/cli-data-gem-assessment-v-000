@@ -19,7 +19,7 @@ class Dogs::CLI
         puts "Which list of dogs would you like to see first 1 or 2"
           input = gets.strip
         if input == "1"
-          
+
           puts "#{counter +=1.set(10, 1)}. #{dog.name}"
         #binding.pry
 
