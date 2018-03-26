@@ -20,7 +20,7 @@ class Dogs::CLI
           input = gets.strip
         if input == "1"
 
-          puts "#{counter +=1.set(10, 1)}. #{dog.name}"
+          puts "#{counter +=1.step(10, 1)}. #{dog.name}"
         #binding.pry
 
         #elsif counter > 10 && counter <= 20
