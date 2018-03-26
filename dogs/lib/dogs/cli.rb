@@ -13,14 +13,13 @@ class Dogs::CLI
   end
 
   def list_dogs
-    counter = 1
+    counter = 0
       Dogs::DogsPopularity.all.each do |dog|
         if counter >= 1 &&  counter <= 10
           puts "#{counter +=1}. #{dog.name}"
         #binding.pry
 
         elsif counter > 10 && counter <= 20
-          Dogs::DogsPopularity.all.each do |dog|
             puts "#{counter +=1}. #{dog.name}"
           #  binding.pry
         end
