@@ -14,7 +14,7 @@ class Dogs::CLI
 
   def list_dogs
     counter = 0
-    input = nil
+    input = ""
       Dogs::DogsPopularity.all.each do |dog|
         puts "Which list of dogs would you like to see first 1 or 2"
           input = gets.strip
