@@ -1,5 +1,6 @@
 class Dogs::CLI
 
+
   def call
     puts " "
     puts "Welcome to family friendly dog rankings!"
